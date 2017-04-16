@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ClassLibrary1
 {
-    public class Cuenta
+     public class Cuenta
     {
         private int _NumeroCuenta;
         private int _Pin;

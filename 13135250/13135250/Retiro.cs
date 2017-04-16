@@ -12,7 +12,7 @@ namespace ClassLibrary1
         private Pantalla Pantalla { get; set; }
         private DispensadorEfectivo DispensadorEfectivo { get; set; }
         public ATM ATM { get; set; }
-        private BaseDatos BaseDeDatos { get; set; }
+        private BaseDeDatos BaseDeDatos { get; set; }
         public Retiro()
         {
         }
@@ -22,7 +22,7 @@ namespace ClassLibrary1
             DispensadorEfectivo = dispensadorRetiro;
         }
 
-        private Retiro(Teclado teclado, Pantalla pantalla, DispensadorEfectivo dispensadorEfectivo, ATM aTM, BaseDatos baseDatos)
+        private Retiro(Teclado teclado, Pantalla pantalla, DispensadorEfectivo dispensadorEfectivo, ATM aTM, BaseDeDatos baseDatos)
         {
             Teclado = teclado;
             Pantalla = pantalla;

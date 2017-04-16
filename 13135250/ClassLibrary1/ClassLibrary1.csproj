@@ -41,8 +41,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ATM.cs" />
-    <Compile Include="BaseDeDatos.cs" />
-    <Compile Include="Class1.cs" />
+    <Compile Include="BaseDatos.cs" />
     <Compile Include="RanuraDeposito.cs" />
     <Compile Include="Retiro.cs" />
     <Compile Include="DispensadorEfectivo.cs" />

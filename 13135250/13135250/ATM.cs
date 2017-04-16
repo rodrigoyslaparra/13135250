@@ -8,12 +8,14 @@ namespace ClassLibrary1
 {
     public class ATM
     {
+
+
         //los objetos de las clases con las que se relaciona
         private RanuraDeposito _RanuraDeposito;
         private Teclado _Teclado;
         private Pantalla _Pantalla;
         private DispensadorEfectivo _DispensadorEfectivo;
-        public BaseDatos BaseDatos { get; set; }
+        public BaseDeDatos BaseDatos { get; set; }
 
         public RanuraDeposito RanuraDeposito
         {
@@ -47,11 +49,12 @@ namespace ClassLibrary1
             _Pantalla = new Pantalla();
         }
 
-        public ATM(BaseDatos baseDatos)
+        public ATM(BaseDeDatos baseDatos)
         {
 
             BaseDatos = baseDatos;
         }
+
 
 
     }
